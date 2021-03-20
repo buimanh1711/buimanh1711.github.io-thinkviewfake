@@ -1,0 +1,228 @@
+/* --------THƯ VIỆN WIDTH-GRID-------- */
+/* MÀN HÌNH LỚN */
+.wide-screen{
+    width: 100%;
+    max-width: 1230px;
+}
+.d-0{
+    display: none;
+}
+.d-1{
+    flex: 0 0 8.33333%;
+    max-width: 8.3333%;
+}
+.d-2{
+    flex: 0 0 16.66667%;
+    max-width: 20%;
+}
+.d-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.d-4{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.d-5{
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+.d-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.d-7{
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+.d-8{
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+.d-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.d-10{
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+.d-11{
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+.d-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+    /* MÀN HÌNH 1024px */
+    @media screen and (max-width: 1288px){
+        .wide-screen{
+            max-width: 1024px;
+        }
+    }
+    /* MÀN HÌNH 1024 */
+    @media screen and (max-width: 1024px){
+        .wide-screen{
+            max-width: 890px;
+        }
+        .s-0{
+            display: none;
+        }
+        .s-1{
+            flex: 0 0 8.33333%;
+            max-width: 8.3333%;
+        }
+        .s-2{
+            flex: 0 0 16.66667%;
+            max-width: 20%;
+        }
+        .s-3{
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        .s-4{
+            flex: 0 0 33.33333%;
+            max-width: 33.33333%;
+        }
+        .s-5{
+            flex: 0 0 41.66667%;
+            max-width: 41.66667%;
+        }
+        .s-6{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .s-7{
+            flex: 0 0 58.33333%;
+            max-width: 58.33333%;
+        }
+        .s-8{
+            flex: 0 0 66.66667%;
+            max-width: 66.66667%;
+        }
+        .s-9{
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+        .s-10{
+            flex: 0 0 83.33333%;
+            max-width: 83.33333%;
+        }
+        .s-11{
+            flex: 0 0 91.66667%;
+            max-width: 91.66667%;
+        }
+        .s-12{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+/* *****MÀN HÌNH NHỎ, TABLET**** */
+@media screen and (max-width: 768px){
+    .t-0{
+        display: none;
+    }
+    .t-1{
+        flex: 0 0 8.33333%;
+        max-width: 8.3333%;
+    }
+    .t-2{
+        flex: 0 0 16.66667%;
+        max-width: 20%;
+    }
+    .t-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .t-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .t-5{
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .t-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .t-7{
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .t-8{
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .t-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .t-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .t-11{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .t-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    /* ************* */
+}
+@media screen and (max-width: 425px){
+    .m-1{
+        flex: 0 0 8.33333%;
+        max-width: 8.3333%;
+    }
+    .m-2{
+        flex: 0 0 16.66667%;
+        max-width: 20%;
+    }
+    .m-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .m-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .m-5{
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .m-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .m-7{
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .m-8{
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .m-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .m-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .m-11{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .m-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}

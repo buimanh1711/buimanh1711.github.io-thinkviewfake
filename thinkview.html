@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <title>Thinkviewfake</title>
+    <!-- <link href="webfonts/css/all.css" rel="stylesheet" type="text/css"> -->
+    <script src="https://kit.fontawesome.com/cc8d84a666.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="thinkview_detail.css" type="text/css">
+    <link rel="stylesheet" href="thinkview_base.css" type="text/css">
+    <link rel="stylesheet" href="thinkview_rps.css" type="text/css">
+    <link rel="stylesheet" href="thinkview_rps_library.css" type="text/css">
+</head>
+<body>
+    <header class="app__header">
+        <div class="grid__header wide-screen">
+            <div class="grid__header-search__form">
+                <div class="logo">
+                <img src="img/thinklogo.png" class="logo__img logo--normal">
+                <img src="img/thinklogo_rps.png" class="logo__img logo--rps">
+                </div>
+                <div class="input__form">
+                    <input type="text" class="input__form-input">
+                    <button class="search__button"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="grid__header-selection">
+                <ul class="grid__header-selection-options">
+                    <li class="selection-options-items">
+                        <a href="">
+                            <i class="header-selection-icon fas fa-assistive-listening-systems"></i>
+                            <span>TƯ VẤN</span>
+                        </a></li>
+                    <li class="selection-options-items">
+                        <a href="">
+                            <i class="header-selection-icon far fa-newspaper"></i>
+                            <span>TIN TỨC</span>
+                        </a></li>
+                    <li class="selection-options-items">
+                        <a href="">
+                            <i class="header-selection-icon fas fa-laptop"></i>
+                            <span>LAPTOP</span>
+                        </a></li>
+                    <li class="selection-options-items">
+                        <a href="">
+                            <i class="header-selection-icon fas fa-desktop"></i>
+                            <span>PC-WORKSTATION</span>
+                        </a></li>
+                    <li class="selection-options-items">
+                        <a href="">
+                            <i class="header-selection-icon fas fa-headphones"></i>
+                            <span>LINH KIỆN</span>
+
+                        </a></li>
+                    <li class="selection-options-items">
+                        <a href="">
+                            <i class="header-selection-icon fas fa-gift"></i>
+                            <span>KHUYẾN MẠI</span>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="grid__header-user__about">
+                <i class="grid__header-user__about-icon fas fa-user"></i>
+                <a href="">
+                    <i class="grid__header-user__about-icon fas fa-shopping-cart">
+                    <div class="grid__header-user__about-icon-notify">0</div>
+                     </i>
+                 </a>
+                <div class="grid__header-user__about-hotline">0961545373</div>
+            </div>
+            <label for="menu-check"><i class="rps__menu-button fas fa-bars"></i></label>
+            <input type="checkbox" id="menu-check" style="display: none;">
+            <label for="menu-check" class="rps-menu-overlay"></label>
+            <div class="rps__menu-list">
+                <ul class="rps-selection-options">
+                    <li class="rps-selection-options-items">
+                        <a href="">
+                            <i class="rps-header-selection-icon fas fa-assistive-listening-systems"></i>
+                            <span>TƯ VẤN</span>
+                        </a></li>
+                    <li class="rps-selection-options-items">
+                        <a href="">
+                            <i class="rps-header-selection-icon far fa-newspaper"></i>
+                            <span>TIN TỨC</span>
+                        </a></li>
+                    <li class="rps-selection-options-items">
+                        <a href="">
+                            <i class="rps-header-selection-icon fas fa-laptop"></i>
+                            <span>LAPTOP</span>
+                        </a></li>
+                    <li class="rps-selection-options-items">
+                        <a href="">
+                            <i class="rps-header-selection-icon fas fa-desktop"></i>
+                            <span>PC-WORKSTATION</span>
+                        </a></li>
+                    <li class="rps-selection-options-items">
+                        <a href="">
+                            <i class="rps-header-selection-icon fas fa-headphones"></i>
+                            <span>LINH KIỆN</span>
+
+                        </a></li>
+                    <li class="rps-selection-options-items">
+                        <a href="">
+                            <i class="rps-header-selection-icon fas fa-gift"></i>
+                            <span>KHUYẾN MẠI</span>
+                        </a></li>   
+                </ul>
+                <div class="rps-boundary"></div> 
+                <div class="rps-user__about">
+                        <i class="rps-user__about-icon fas fa-user"></i>
+                    <a href="">
+                        <i class="rps-user__about-icon fas fa-shopping-cart">
+                        <div class="rps-user__about-icon-notify">0</div>
+                        </i>
+                    </a>
+                    <div class="rps-user__about-hotline">Hotline: 0961545373</div>
+                 </div>
+            </div>
+        </div>
+    </header>
+    <div class="main__grid__container wide-screen">
+       <div class="main__ads d-12">
+            <div class="main__ads-item main__ads-item-horizontal t-12" onmouseover=" buttonDisplay()" onmouseout="buttonHide()" >
+                <a href=""><img src="./img/thinkads.png" alt="" class="big_ads"></a>
+               <button class="main__ads-slide main__ads-slide-next" name="button_next"><i class="main__ads-slide-icon fas fa-chevron-right"></i></button>
+               <button class="main__ads-slide main__ads-slide-previous" name="button_previos"><i class="main__ads-slide-icon fas fa-chevron-left"></i></button>
+            </div>
+            <div class="main__ads-item main__ads-item-vertical">
+                <div class="main__ads-item-vertical-content vertical-content-up">
+                    <img class="main-vertical-ads-pic" src="./img/thinkads1.png" alt="">
+                </div>
+                <div class="main__ads-item-vertical-content vertical-content-down">
+                    <img class="main-vertical-ads-pic" src="./img/thinkads2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="product-introduce d-12">
+                <div class="main__suggestion">
+                    Một số gợi ý dưới đây có thể giúp bạn tìm sản phẩm nhanh hơn...
+                </div>
+                <div class="main__brandlogo">
+                    <ul class="main__brandlogo-list">
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_dell.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_hp.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_thinkpad.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_lenovo.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_alienware.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_razer.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_msi.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_asus.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_acer.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_apple.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="main__brandlogo-item">
+                                <img src="./img/brand_logo_microsoft.png" class="brand__logo-picture" alt="">
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="main__price__range">
+                    <ul class="price__range-list">
+                    
+                            <li class="price__range-item-title">
+                                MỨC GIÁ: 
+                            </li>
+            
+                        <a href="">
+                            <li class="price__range-item">10-15 triệu</li>
+                        </a>
+                        <a href="">
+                            <li class="price__range-item">15-20 triệu</li>
+                        </a>
+                        <a href="">
+                            <li class="price__range-item">25-30 triệu</li>
+                        </a>
+                        <a href="">
+                            <li class="price__range-item">30-50 triệu</li>
+                        </a>
+                        <a href="">
+                            <li class="price__range-item">50 triệu trở lên</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="main__user__need">
+                    <ul class="user__need-list">
+                            <li class="user__need-item-title">
+                                NHU CẦU SỬ DỤNG: 
+                            </li>
+                        <a href="">
+                            <li class="user__need-item">Văn phòng - Học tập cơ bản</li>
+                        </a>
+                        <a href="">
+                            <li class="user__need-item">Học tập - chơi game</li>
+                        </a>
+                        <a href="">
+                            <li class="user__need-item">Doanh nhân - lịch lãm</li>
+                        </a>
+                        <a href="">
+                            <li class="user__need-item">Đồ họa - Kĩ thuật</li>
+                        </a>
+                        <a href="">
+                            <li class="user__need-item">Lập trình</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="boundary"></div>
+                <div class="main__category">
+                    <ul class="main__category-list">
+                        <li class="main__category-item laptop">
+                            <div id="item-laptop-boundary"></div>
+                            <a href="">LAPTOP</a>
+                            <div id="item-laptop-notify">142</div>
+                        </li>
+                        <li class="main__category-item">
+                            <a href="">
+                                Giảm giá
+                            </a>
+                        </li>
+                        <li class="main__category-item">
+                            <div class="main__category-item-boundary"></div>
+                            <a href="">
+                                Nhập khẩu
+                            </a>
+                        </li>
+                        <li class="main__category-item">
+                            <div class="main__category-item-boundary"></div>
+                            <a href="">Chính hãng</a>
+                        </li>
+                        <li class="main__category-item">
+                            <div class="main__category-item-boundary"></div>
+                            <a href="">Laptop cũ</a>
+                        </li>
+                        <li class="main__category-item">
+                            <div class="main__category-item-boundary"></div>
+                            <a href="">Hàng sắp về</a>
+                        </li>
+                    </ul>
+                </div>
+        </div> 
+        <div class="product-container main__product">
+            <div class="main__product-container d-12">
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <h3 class="product-name">Thinkpad X1 Carbon Gen7</h5>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/product1.png" alt="" class="product-img"></a>
+                        <a href=""><h3 class="product-name">Thinkpad X1 Carbon Gen7</h3></a>
+                        <a href=""><p class="product-verson">Có <strong style="color: red;">5</strong> phiên bản cấu hình</p></a>
+                        <p class="product-price">Giá từ 35.000.000đ</p>
+                        <p class="product-describe">Dòng máy doanh nhân cao cấp, mỏng nhẹ, cấu hình ổn</p>
+                    </div>
+                </div>            
+            </div>
+            <div class="main__product-see__more__btn d-12">
+                <a href=""><button class="see__more__btn">Xem thêm</button></a>
+            </div>
+        </div>
+        <div class="see__more__btn-boundary boundary"></div>
+        <div class="main__category">
+            <ul class="main__category-list">
+                <li class="main__category-item laptop">
+                    <div id="item-laptop-boundary"></div>
+                    <a href="">PHỤ KIỆN</a>
+                    <div id="item-laptop-notify">142</div>
+                </li>
+                <li class="main__category-item">
+                    <a href="">
+                        SSD
+                    </a>
+                </li>
+                <li class="main__category-item">
+                    <div class="main__category-item-boundary"></div>
+                    <a href="">
+                        RAM
+                    </a>
+                </li>
+                <li class="main__category-item">
+                    <div class="main__category-item-boundary"></div>
+                    <a href="">eGPU</a>
+                </li>
+                <li class="main__category-item">
+                    <div class="main__category-item-boundary"></div>
+                    <a href="">Chuột</a>
+                </li>
+                <li class="main__category-item">
+                    <div class="main__category-item-boundary"></div>
+                    <a href="">Tản nhiệt</a>
+                </li>
+            </ul>
+        </div>
+        <div class="product-container container_2 d-12">
+            <div class="main__product-container d-12">
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/accessory1.png" alt="" class="product-img"></a>
+                        <h3 class="product-name">Bút Logitech R500- USB/Bluetooth (Mới)</h5>
+                        <p class="product-price">790.000đ</p>
+                        <p class="product-describe">Bút thiết bị trình chiếu Logitech R500 USB Bluetooth</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/accessory1.png" alt="" class="product-img"></a>
+                        <h3 class="product-name">Bút Logitech R500- USB/Bluetooth (Mới)</h5>
+                        <p class="product-price">790.000đ</p>
+                        <p class="product-describe">Bút thiết bị trình chiếu Logitech R500 USB Bluetooth</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/accessory1.png" alt="" class="product-img"></a>
+                        <h3 class="product-name">Bút Logitech R500- USB/Bluetooth (Mới)</h5>
+                        <p class="product-price">790.000đ</p>
+                        <p class="product-describe">Bút thiết bị trình chiếu Logitech R500 USB Bluetooth</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/accessory1.png" alt="" class="product-img"></a>
+                        <h3 class="product-name">Bút Logitech R500- USB/Bluetooth (Mới)</h5>
+                        <p class="product-price">790.000đ</p>
+                        <p class="product-describe">Bút thiết bị trình chiếu Logitech R500 USB Bluetooth</p>
+                    </div>
+                </div>
+                <div class="product-item s-3 t-4 m-6">
+                    <div class="product-border">
+                        <a href=""><img src="./img/accessory1.png" alt="" class="product-img"></a>
+                        <h3 class="product-name">Bút Logitech R500- USB/Bluetooth (Mới)</h5>
+                        <p class="product-price">790.000đ</p>
+                        <p class="product-describe">Bút thiết bị trình chiếu Logitech R500 USB Bluetooth</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__product-see__more__btn d-12">
+                <a href=""><button class="see__more__btn">Xem thêm</button></a>
+            </div>
+        </div>
+    </div>    
+    <div class="app__footer">
+        <div class="footer__container wide-screen">
+            <div class="footer1">thinkpro</div>
+            <div class="footer2">
+                <h3 class="footer2-title">                    
+                     Công ty TNHH Công nghệ Think Việt Nam
+                </h3>
+                <p>
+                    Số ĐKKD 0107273909 do Sở KHĐT Thành phố Hà Nội cấp ngày 30/12/2015
+                </p>
+                <p>
+                    Người đại diện: Trần Văn Long
+                </p>
+                <p>
+                    Địa chỉ: Số 105/562 Đường Láng, P.Láng Hạ, Q.Đống Đa, TP.Hà Nội
+                </p>
+                <p>
+                    Copyright © 2018 Think Vietnam. All Rights Reserved. Designed by firefly.vn
+                </p>
+            </div>
+            <div class="footer3">
+                <h3 class="footer3-title">
+                    HỆ THỐNG CỬA HÀNG
+                </h3>
+                <ul>
+                    <a href="">
+                        <li>
+                            TP HCM: Số 62 Duy Tân, Phường 15, Q.Phú Nhuận, TP HCM
+                        </li>
+                    </a>
+                    <a href="">
+                        <li>Hà Nội: Số 105 ngõ 562 đường Láng, P. Láng Hạ, Q. Đống Đa, Hà Nội
+                            </li>
+                    </a>
+                    <a href="">
+                        <li>
+                            Hà Nội: 69 Phố Vọng, Phường Đồng Tâm, Quận Hai Bà Trưng, TP.Hà Nội
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a href=""><div class="online-supporting">
+        <i class="fas fa-comment"></i>
+        Hỗ trợ trực tuyến
+    </div>
+    </a>
+    <div class="scroll__top-btn" title="Về đầu trang">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+
+
+</body>
+<script src="./thinkview.js"></script>
+</html>
